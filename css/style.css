@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body{
     overflow-x: hidden;
 }
@@ -300,7 +303,7 @@ button:hover .button-text {
     }
   }
   
-a.card{
+a{
   text-decoration: none;
 }  
 .card {
@@ -361,7 +364,7 @@ a.card{
   bottom: 0;
   background-size: cover;
   background-position: center;
-  background-image: url("https://images.unsplash.com/photo-1553787762-b5f5721f3270?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80");
+  background-image: url('../images/Poster/blank.png');
   -webkit-transform-origin: top center;
           transform-origin: top center;
   -webkit-transition-property: -webkit-transform;
@@ -370,6 +373,45 @@ a.card{
   transition-property: transform, -webkit-transform;
   -webkit-transition-delay: 0.15s;
           transition-delay: 0.15s;
+}
+.card__image.logomania{
+  background-image: url('../images/Poster/4.jpg');
+}
+.card__image.codeathon{
+  background-image: url('../images/Poster/6.jpg') ;
+}
+.card__image.internship{
+  background-image: url('../images/Poster/1.jpg') ;
+}
+.card__image.popquiz{
+  background-image: url('../images/Poster/2.jpg') ;
+}
+.card__image.min30{
+  background-image: url('../images/Poster/3.jpg') ;
+}
+
+
+/*SIG BG*/
+.card__image.sgraph{
+  background-image: url('../images/sigs/sig\ graph.jpg') ;
+}
+.card__image.sweb{
+  background-image: url('../images/sigs/sig\ web.jpg') ;
+}
+.card__image.ssoft{
+  background-image: url('../images/sigs/sig\ soft.jpg') ;
+}
+.card__image.stech{
+  background-image: url('../images/sigs/sig\ tech.jpg') ;
+}
+.card__image.sfoundation{
+  background-image: url('../images/sigs/sig\ foundation.jpg') ;
+}
+.card__image.spython{
+  background-image: url('../images/sigs/sig\ python.jpg') ;
+}
+.card__image.splan{
+  background-image: url('../images/sigs/sig\ plan.jpg') ;
 }
 .card__image::after {
   content: '';
@@ -433,7 +475,7 @@ a.card{
           transition-delay: 0.15s;
 }
 .card__link {
-  color: currentColor;
+  color: white;
   text-decoration: none;
   border-bottom: 2px solid #0182AC;
   transition: background-color 0.3s ease-in;
