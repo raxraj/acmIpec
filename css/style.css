@@ -168,11 +168,6 @@ button:hover .button-text {
   color: #fff;
 }
 
-@media(max-width : 768px){
-  .noMobSVG{
-    display: none !important;
-  }
-}
 
 @supports (display: grid) {
 
@@ -657,5 +652,25 @@ a{
   }
   to{
     transform: translateY(5%);
+  }
+}
+
+@media(max-width : 768px){
+  .noMobSVG{
+    display: none !important;
+  }
+  nav{
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+  .hero-text{
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .sub-hero{
+    font-size: 30px;
+  }
+  .section-header{
+    font-size: 35px;
   }
 }
