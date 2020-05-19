@@ -378,6 +378,9 @@ a{
 .card__image.internship{
   background-image: url('../images/Poster/1.jpg') ;
 }
+.card__image.quizzard{
+  background-image: url('../images/Poster/quizzard.jpeg') ;
+}
 .card__image.popquiz{
   background-image: url('../images/Poster/2.jpg') ;
 }
