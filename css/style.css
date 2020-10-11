@@ -97,7 +97,7 @@ button {
   font-family: inherit;
 }
 button.learn-more {
-  width: 12rem;
+  width: 25rem;
   height: auto;
 }
 button.learn-more .circle {
@@ -386,6 +386,9 @@ a{
 }
 .card__image.min30{
   background-image: url('../images/Poster/3.jpg') ;
+}
+.card__image.recruitment{
+  background-image: url('../images/Poster/recruitment.png');
 }
 
 
