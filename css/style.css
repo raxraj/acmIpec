@@ -97,7 +97,7 @@ button {
   font-family: inherit;
 }
 button.learn-more {
-  width: 100%;
+  width: 60%;
   height: auto;
 }
 button.learn-more .circle {
@@ -685,3 +685,7 @@ a{
     font-size: 35px;
   }
 }
+
+
+
+
